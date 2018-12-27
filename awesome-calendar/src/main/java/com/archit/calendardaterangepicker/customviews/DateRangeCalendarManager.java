@@ -20,7 +20,7 @@ class DateRangeCalendarManager {
     private Calendar minSelectedDate, maxSelectedDate;
     private List<Calendar> calendarMonths = new ArrayList<>();
     private final static String DATE_FORMAT = "yyyyMMdd";
-    public static SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat(DATE_FORMAT, Locale.getDefault());
+    public static SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat(DATE_FORMAT, Locale.ENGLISH);
 
 
     @Retention(RetentionPolicy.SOURCE)

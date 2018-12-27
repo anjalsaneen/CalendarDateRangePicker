@@ -19,7 +19,7 @@ public class DayContainer {
     public CustomTextView tvDate;
     public View strip;
 
-    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd", Locale.getDefault());
+    private static final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyyMMdd", Locale.ENGLISH);
 
     public DayContainer(RelativeLayout rootView) {
         this.rootView = rootView;
